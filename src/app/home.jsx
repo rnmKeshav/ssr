@@ -1,5 +1,9 @@
 import React, {Fragment} from "react";
 
+const handleTextClick = () => {
+  alert("Clicked on text");
+}
+
 const Home = () => {
   return (
     <Fragment>

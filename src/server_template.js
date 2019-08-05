@@ -10,7 +10,9 @@ const serverTemplate = (body) => {
       <title>Document</title>
     </head>
     <body>
-      ${body}
+      <div id="root">
+        ${body}
+      </div>
     </body>
     </html>
   `
